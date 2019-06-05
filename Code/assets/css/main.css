@@ -2505,7 +2505,7 @@ input, select, textarea {
 			display: block;
 			background: #343434;
 			border-radius: 100%;
-			color: #312450;
+			color: #f3f5ed;
 			text-align: center;
 			line-height: 2.5em;
 			margin: 0 0 1.3em 0;
@@ -2516,32 +2516,32 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					/*color: #5e42a6;*/
 					/*#5e42a6*/
 				}
 
 				.wrapper.style1-alt .icon.major:before {
-					color: #493382;
+					/*color: #493382;*/
 					/*#493382*/
 				}
 
 				.wrapper.style2 .icon.major:before {
-					color: #5052b5;
+					/*color: #5052b5;*/
 					/*#5052b5*/
 				}
 
 				.wrapper.style2-alt .icon.major:before {
-					color: #3e4094;
+					/*color: #3e4094;*/
 					/*#3e4094*/
 				}
 
 				.wrapper.style3 .icon.major:before {
-					color: #b74e91;
+					/*color: #b74e91;*/
 					/*#b74e91*/
 				}
 
 				.wrapper.style3-alt .icon.major:before {
-					color: #953d75;
+					/*color: #953d75;*/
 					/*#953d75*/
 				}
 
@@ -2552,6 +2552,7 @@ input, select, textarea {
 		border: 0;
 		display: inline-block;
 		position: relative;
+		object-fit: contain;
 	}
 
 		.image img {
